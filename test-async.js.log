@@ -1,0 +1,15 @@
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loaded 0
+##vso[task.debug]looking up mock answers for "which", key '"bash"'
+##vso[task.debug]found mock response
+##vso[task.debug]check path : /bin/bash
+##vso[task.debug]looking up mock answers for "checkPath", key '"/bin/bash"'
+##vso[task.debug]found mock response
+[command]/bin/bash .istioctldownloader.sh
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]Error: /bin/bash failed. spawn /bin/bash ENOENT
+##vso[task.complete result=Failed;]Error: /bin/bash failed. spawn /bin/bash ENOENT
+
+STDERR: (node:10204) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): bash error
+
